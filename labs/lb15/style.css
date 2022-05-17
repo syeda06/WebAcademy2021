@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+}
+
+.button-property{
+  background-color: #c1ecc1;
+  color:#1A8B1A;
+}
+
+div{
+  background-color: lightgray;
+  color: navy;
+  border: 2px solid palevioletred;
+}

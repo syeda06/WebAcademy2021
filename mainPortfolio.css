@@ -1,0 +1,40 @@
+/* Creates a box and control the size of the box */
+*{
+  box-sizing: border-box;
+}
+body{
+  /* Controls the background and font color */
+  background-color: #38026B;
+  color: rgb(0, 0, 0);
+}
+/* Style of the header */
+.header{
+  background-color: rgb(194,	177,	233);
+  padding: 20px;
+  text-align: center;
+  color: #905DC1;
+}
+/* Style of the navigation bar */
+.topnav{
+  background-color: rgb(161, 222, 250);
+ overflow:hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a{
+  color: #905DC1;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px
+}
+/* Changes color on hover to mouse over */
+.topnav a:hover{
+  background-color:aliceblue;
+  color: #E25CAB;
+}
+/* Creates 3 equal columns that float next to each other */
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}

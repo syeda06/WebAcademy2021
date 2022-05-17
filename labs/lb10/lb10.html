@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lab 10 Internal CSS</title>
+  <link rel="icon" type="image/jpg" href="/labs/lab6/diamondlogo.jpg"/>
+<style>
+  *{
+    /*the* works as universal selector for CSS*/
+    box-sizing:border-box;
+  }
+  /*A CSS selector select the HTML element(s)you want to style. Simple selectos(select elements based on name, is, class)*/
+  /*any html tag can be a selector*/
+  body{
+    background-color: ;
+  }
+  
+  .header{
+    background-image:url("https://image.freepik.com/free-vector/realistic-hand-drawn-flower-pastel-green-background_23-2148331045.jpg");
+  }
+  /*The id selector uses the id atttribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element. Example the CSS rule below will be applied to the HTML element with id="paral":*/
+  #demobox{
+    text-align:center ;
+    color:green;
+  }
+  /*The group selector selects all the HTML elements with the same style definitions. Look at the following CSS code (the h1, h2, and p elements have the same style definitions). It will be better to group the selectors, to minimise the code. To group selectors, seperate each selector with a comma.*/
+  p, h1, h2, h3, h4, h5, h6{
+    color:green;
+  }
+  /*A combinator is something that explains the relationship  between the selectors. A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator. There are four different combinators in CSS:*/
+  .header h3{
+    color:green;
+  }
+  /*changes color on hover or mouse over*/
+  /*A pseudo-class is used to define a special state of an element. FOr example, it can be used to: 
+  Style an element when a user mouses over itStyle visited and unvisited links differently 
+  Style an element when it gets focus */
+  /*CSS [attribute] selector
+  The [attribute] selector is used to select elements with a specified  attribute. The following example selects all <a> elements with a target attribute:*/
+ /**/
+*{
+  box-sizing:border-box;
+}
+/**/
+body{
+ background-color: #C1E1C1
+ color: #C1E1C1; 
+}
+/**/
+.topnav{
+  background-color: rgb(194,	177,	233);
+  overflow: hidden;
+}
+/**/
+.topnav a{
+  color: #905DC1;
+  float: left;
+  display: block;
+  text-align: center; 
+  padding: 14px 16px;
+}
+
+/**/
+.topnav a:hover{
+  background-color:rgb(0,0,0); 
+}
+.header{
+  background-color: rgb(244, 224, 247);
+  padding: 20px;
+  text-align: center; 
+  color:rgb(155, 78, 228);
+}
+</style> 
+</head>
+<body>
+  <div class="topnav">
+<a href="../lab1/lab1.html">Lab 1</a>
+<a href="../lab2/lab2.html">Lab 2</a>
+<a href="../lab3/lab3.html">Lab 3</a>
+<a href="../lab4/lb4.html">Lab 4</a>
+<a href="../lab5/lab5.html">Lab 5</a>
+<a href="../lab6/lab6.html">Lab 6</a>
+<a href="../lab7/lab7.html">Lab 7</a>
+<a href="../lab8/lab8.html">Lab 8</a>
+<a href="../lab9/lab9.html">Lab 9</a>
+<a href="../lb10/lb10.html">Lab 10</a>
+<a href="../lb11/lb11.html">Lab 11</a>
+<a href="../lb12/lb12.html">Lab 12</a>
+<a href="../lb13/lb13.html">Lab 13</a>
+<a href="../lb14/lb14.html">Lab 14</a>
+<a href="../lb15/lb15.html">Lab 15</a>
+<a href="../lb16/lb16.html">Lab 16</a>
+<a href="../lb17/lb17.html">Lab 17</a>
+<a href="../lb18/lb18.html">Lab 18</a>
+<a href="../lb19/lb19.html">Lab 19</a>
+<a href="../lb20/lb20.html">Lab 20</a>
+<a href="../project.html">My Project</a>
+</div>
+    <div class="topnav">
+   <a href="../../">HOME</a>
+      </div> 
+  <div class="header">
+    <h1> TAEHS</h1>
+    <h2>WEBPAGE (LAB 10)</h2>
+    <h4>Febuary 7th 2022</h4> 
+    <h5>Syeda Samantha</h5>
+    </div> 
+    <div id= "demobox">
+      <h1> Syeda </h1>
+      <h1 id="lname"> Samantha </h1>
+      <h1> Febuary 9, 2022 </h1>
+    </div>

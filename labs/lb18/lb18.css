@@ -1,0 +1,43 @@
+.topnav{
+  background-color: rgb(161, 222, 250);
+ overflow:hidden;
+}
+
+.topnav a{
+  color: #905DC1;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px
+}
+
+.topnav a:hover{
+  background-color:aliceblue;
+  color: #E25CAB;
+}
+
+body{
+  background-color: #ffff85; 
+}
+
+#movingBox{
+  background-color:purple;
+  border: 2px solid cyan;
+  width: 75px;
+  height:75px;
+  position:relative;
+  left: 200px;
+}
+
+button{
+  background-color: yellow;
+  border: 2px solid blue;
+  color: purple;
+  font-size: 14px;
+}
+
+button:hover{
+  background-color: darkslateblue;
+  color: hotpink;
+  box-shadow: 0 5px 10px 0 pink;
+}
